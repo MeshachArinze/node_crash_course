@@ -7,13 +7,6 @@ const p = path.join(
   'cart.json'
 );
 
-// shorthand notation
-// const a = 'foo', b = 'bar', c = 42;
-// const o = { a, b, c };
-// let cart = {products: [], totalPrice: 0};
-
-(a, b) => a + b + 100;
-
 
 module.exports = class Cart {
   static addProduct(id, productPrice) {
